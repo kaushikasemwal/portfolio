@@ -1,6 +1,6 @@
 # Kaushika Semwal — Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Portfolio-6FFF00?style=for-the-badge&logo=githubpages&logoColor=010828)](https://kaushikasemwal.github.io/portfolio/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Portfolio-6FFF00?style=for-the-badge&logo=githubpages&logoColor=010828)](https://kaushikasemwal.github.io/Portfolio/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=010828)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
@@ -13,7 +13,7 @@ A modern, responsive single-page portfolio website featuring **video backgrounds
 
 ## 🌐 Live Demo
 
-**[https://kaushikasemwal.github.io/portfolio/](https://kaushikasemwal.github.io/portfolio/)**
+**[https://kaushikasemwal.github.io/Portfolio/](https://kaushikasemwal.github.io/Portfolio/)**
 
 *(Deployed via GitHub Pages)*
 
@@ -90,7 +90,7 @@ portfolio/
 ### Install & Run Locally
 
 ```bash
-git clone https://github.com/kaushikasemwal/portfolio.git
+git clone https://github.com/kaushikasemwal/Portfolio.git
 cd portfolio
 npm install
 npm run dev          # http://localhost:5173
@@ -181,7 +181,7 @@ The repo includes a workflow at `.github/workflows/deploy.yml` that auto-deploys
 **Required setup (one-time):**
 
 1. **Enable Pages**: Go to repo Settings → Pages → Source: "GitHub Actions"
-2. **Set base path**: In `vite.config.ts`, ensure `base: '/portfolio/'` is set
+2. **Set base path**: In `vite.config.ts`, ensure `base: '/Portfolio/'` is set
 3. **Push to main**: Workflow runs automatically
 
 ```yaml
