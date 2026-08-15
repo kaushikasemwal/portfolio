@@ -62,7 +62,7 @@
   background-size: cover;
   background-position: center;
   mix-blend-mode: lighten;
-  opacity: 0.6;
+  opacity: 0.25;
 }
 
 @utility text-balance {

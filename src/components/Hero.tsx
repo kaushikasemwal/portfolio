@@ -21,18 +21,18 @@ export default function Hero() {
       <div ref={ref} className={`relative max-w-[1831px] mx-auto px-4 md:px-8 lg:px-16 w-full pb-20 md:pb-28 lg:pb-36 flex flex-col items-center z-10 reveal-up ${isVisible ? 'reveal-up-visible' : ''}`}>
         <div className="relative w-full max-w-[780px] lg:ml-32 flex flex-col items-center lg:items-start text-center lg:text-left">
           <p className="font-condiment text-neon mix-blend-exclusion opacity-90 mb-4 text-balance text-shadow-glow reveal-child"
-             style={{ fontSize: 'clamp(20px, 3vw, 32px)' }}>
+             style={{ fontSize: 'clamp(28px, 4vw, 48px)' }}>
             AI Engineer & Developer
           </p>
           <h1 className="font-grotesk uppercase leading-[1.05] text-balance text-shadow-glow reveal-child"
               style={{
-                fontSize: 'clamp(40px, 8vw, 90px)',
+                fontSize: 'clamp(56px, 10vw, 120px)',
                 lineHeight: 'clamp(1.05, 0.02vw + 1, 1)',
               }}>
             Kaushika Semwal
           </h1>
           <p className="font-mono uppercase mt-6 text-cream/90 text-balance max-w-[600px] text-shadow-strong reveal-child"
-             style={{ fontSize: 'clamp(14px, 2vw, 18px)' }}>
+             style={{ fontSize: 'clamp(18px, 2.5vw, 24px)' }}>
             BTech Engineering AI (4th Year) • Building intelligent systems with Computer Vision & Generative AI
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 reveal-child">
